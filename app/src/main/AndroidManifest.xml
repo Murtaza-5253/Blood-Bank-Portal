@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.igc.bloodbankportal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodBankPortal">
+        <activity android:name=".Profile_Activity"></activity>
+        <activity android:name=".Request_Activity" />
+        <activity android:name=".Status_Activity" />
+        <activity android:name=".Blood_Bank_Activity" />
+        <activity android:name=".Find_Donor_Activity" />
+        <activity android:name=".DashBoard_Activity" />
+        <activity android:name=".Forgot_Password_Activity" />
+        <activity android:name=".Registration_Activity" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
